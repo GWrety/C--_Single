@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "filesystem": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "mutex": "cpp",
+        "thread": "cpp"
+    },
+    "cSpell.ignoreWords": [
+        "Kthsmallest",
+        "PAHNAPLSIIGYIR",
+        "Slength",
+        "heighti",
+        "lagx",
+        "lefti",
+        "maxn",
+        "righti",
+        "tribonacci"
+    ],
+    "cSpell.words": [
+        "nlogn",
+        "stoi"
+    ]
+}
