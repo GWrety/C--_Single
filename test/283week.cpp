@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-//22.3.6
+//22.3.6 1/4
 class Solution {
 public:
     vector<string> cellsInRange(string s) {
