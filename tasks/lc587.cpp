@@ -124,7 +124,6 @@ public:
     vector<vector<int>> outerTrees(vector<vector<int>>& trees) {
         int n = trees.size();
         if(n <= 3) return trees;
-
         vector<vector<int>> ans;
 
         int fir = -1;       //找最左当中最下点作为起始点
