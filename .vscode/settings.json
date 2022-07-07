@@ -71,21 +71,7 @@
         "streambuf": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "hash_map": "cpp"
     },
-    "cSpell.ignoreWords": [
-        "Kthsmallest",
-        "PAHNAPLSIIGYIR",
-        "Slength",
-        "heighti",
-        "lagx",
-        "lefti",
-        "maxn",
-        "righti",
-        "tribonacci"
-    ],
-    "cSpell.words": [
-        "nlogn",
-        "stoi"
-    ]
 }
