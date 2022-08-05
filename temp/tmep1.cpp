@@ -1,10 +1,8 @@
 #include<bits/stdc++.h>
-int  main(){
 
-    cout<<"hello,vscode";
+int main () {
+    cout<<"Hello,world";
+    return 0;
 }
-
-
-
 
 
