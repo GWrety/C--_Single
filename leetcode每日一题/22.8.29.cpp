@@ -12,6 +12,7 @@ public:
         int right=n;
         int lag=1;
         while(ans.size()<nums.size()){
+            //其实这里 两个都操作一下就好了 ，没必要分出来 每次都是加left 加right  然后都++
             if(!lag){
                 ans.push_back(nums[right]);
                 right++;
