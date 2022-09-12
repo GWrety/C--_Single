@@ -10,6 +10,9 @@ struct TreeNode {
        TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+
+
+
 //BTS 把所有超过范围的树节点都剔除掉
 //对于那种兄弟之间父亲丢失需要重写定义父子关系的情况 是不可能的 因为是二叉搜索树，
 //父节点一定是两节点的区间，不存在一个区间 把中间的数字丢掉而两端存在
@@ -32,6 +35,8 @@ public:
         return findson(temp->left,low,high);
     }
 };
+
+
 
 
 int main()
