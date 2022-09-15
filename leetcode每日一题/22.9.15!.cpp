@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//627
 
 //初始状态是 n个打开的灯
 //所有的操作组合有pow(4,presses)  
