@@ -5,6 +5,7 @@ using namespace std;
 //但在写sort函数时
 //[&] : capture all external variable by reference:通过引用的方式获取所有外部变量
 //[=] : capture all external variable by value：获取所有外部变量
+//!如果在sort比较函数哪里不用&的话，会报错。暂时不知道什么原因
 class Solution {
 public:
     vector<int> frequencySort(vector<int>& nums) {
