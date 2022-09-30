@@ -13,7 +13,7 @@ public:
         for(auto i: nums){
             map[i]++;
         }
-        sort(nums.begin(),nums.end(),[&](int a,int b){
+        sort(nums.begin(),nums.end(),[&](int a,int b)->bool{
             if(map[a]!=map[b]){
                 return map[a]<map[b];
             }
