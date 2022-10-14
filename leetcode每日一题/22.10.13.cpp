@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 //理论上只需要记录到目前为止最大的值 如果这个值小于等于小标 就可以分一个重新计算
 class Solution {
 public:
@@ -20,7 +19,6 @@ public:
                 aim=-1;
             }
         }
-        ans++;
         return ans;
     }
 }; 
